@@ -1,0 +1,363 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 90px;
+  align-items: center;
+  background-color: #6876c0;
+  font-family: "Rubik", sans-serif;
+}
+
+.logo {
+  position: absolute;
+  left: 86px;
+  top: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  padding-right: 5%;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  width: 491px;
+  height: 21px;
+  left: 1310px;
+  top: 36px;
+  letter-spacing: 0.105em;
+}
+
+main {
+  font-family: "Rubik", sans-serif;
+}
+
+.main-text {
+  position: absolute;
+  width: 980px;
+  height: 66px;
+  left: 169px;
+  top: 343px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.detalles-premium {
+  position: absolute;
+  width: 647px;
+  height: 168px;
+  left: 169px;
+  top: 550px;
+}
+
+.detalles-premium li {
+  list-style: url(SVG/tick-premium.svg);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 50px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.HERO-PREMIUM {
+  position: absolute;
+  width: 436px;
+  height: 725.55px;
+  left: 1300px;
+  top: 180px;
+}
+
+.planes-titulo h2 {
+  position: absolute;
+  width: 512px;
+  height: 48px;
+  left: 734px;
+  top: 1056px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.plan-barato {
+  position: absolute;
+  width: 532px;
+  height: 916px;
+  left: 76px;
+  top: 1306px;
+  background: #ffffff;
+  border: 6px solid rgba(220, 80, 157, 0.76);
+  box-sizing: border-box;
+  border-radius: 68px;
+}
+
+.plan-medio {
+  position: absolute;
+  width: 558px;
+  height: 954px;
+  left: 681px;
+  top: 1208px;
+  background: #ffffff;
+  border: 6px solid #9fadf7;
+  box-sizing: border-box;
+  border-radius: 68px;
+}
+
+.plan-caro {
+  position: absolute;
+  width: 532px;
+  height: 916px;
+  left: 1312px;
+  top: 1306px;
+  background: #ffffff;
+  border: 6px solid #03cffc;
+  box-sizing: border-box;
+  border-radius: 68px;
+}
+
+.tituloplanbarato {
+  width: 156px;
+  height: 43px;
+  left: 264px;
+  top: 1408px;
+  margin-left: 190px;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.tituloplancaro {
+  width: 156px;
+  height: 43px;
+  left: 264px;
+  top: 1408px;
+  margin-left: 170px;
+  margin-top: 50px;
+  font-style: 400;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.medio {
+  margin-left: 135px;
+  margin-top: 50px;
+  width: 221px;
+  height: 57px;
+  left: 849px;
+  top: 1290px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.plancaro-precio {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 155px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  height: 85px;
+  left: 193px;
+  top: 1502px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.planbaratoprecio {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 150px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  height: 85px;
+  left: 193px;
+  top: 1502px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.precio-medio {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 165px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 85px;
+  left: 849px;
+  top: 1402px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.105em;
+  color: #dd0000;
+}
+
+.lista {
+  list-style-type: none;
+}
+
+.lista li {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+.pormes1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.pormes2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.pormes3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.descripcion {
+  display: flex;
+  margin-left: 52px;
+  width: 72px;
+  left: 125px;
+  top: 1668px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.precio {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: 11px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.contenedor-boton-compra {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-compra-barato {
+  width: 340px;
+  height: 77px;
+  left: 172px;
+  top: 2067px;
+  background: linear-gradient(180deg, rgba(220, 80, 157, 0.87) 0%, rgba(222, 224, 235, 0) 366.2%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 32px;
+}
+
+.boton-compra-medio {
+  width: 340px;
+  height: 76px;
+  left: 790px;
+  top: 2008px;
+  background: linear-gradient(180deg, #9fadf7 0%, rgba(189, 195, 225, 0) 366.2%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 32px;
+}
+
+.boton-compra-caro {
+  width: 340px;
+  height: 77px;
+  left: 1408px;
+  top: 2067px;
+  background: linear-gradient(180deg, #48deff 0%, rgba(156, 156, 156, 0) 366.2%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 32px;
+}
+
+.boton-quiero {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+}

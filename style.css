@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content:flex-end;
+    min-height: 90px;
+    align-items:center;
+    background-color: #6876C0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.logo {
+    position:absolute;
+    left: 86px;
+    top: 25px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.105em;
+    color: #FFFFFF;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-right: 5%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+        color: #FFFFFF;
+        text-decoration: none;
+        width: 491px;
+        height: 21px;
+        left: 1310px;
+        top: 36px;
+        letter-spacing: 0.105em;
+}
+
+main {
+    font-family: 'Rubik', sans-serif;
+}
+
+.main-text { 
+    
+        position: absolute;
+        width: 1064px;
+        height: 237px;
+        left: 76px;
+        top: 286px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 76px;
+        letter-spacing: 0.105em;
+        color: #000000;
+        
+}
+
+.sub-text {
+        position: absolute;
+        left: 86px;
+        top: 601px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: 0.105em;
+        color: #000000;
+    
+
+}
+
+.boton-descargar1 {
+        position: absolute;
+        width: 404px;
+        height: 71px;
+        left: 269px;
+        top: 721px;
+        background: linear-gradient(180deg, #5F6DB3 0%, rgba(95, 109, 179, 0) 366.2%);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 32px;
+}
+
+.descargar {
+        position: absolute;
+        width: 170px;
+        height: 28px;
+        text-align: center;
+        left: 115px;
+        top: 22px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.105em;
+        color: #FFFFFF;
+    
+}
+
+.HERO { 
+        position: absolute;
+        width: 648px;
+        height: 692.16px;
+        left: 1200px;
+        top: 240px;
+}
+
+.transition1 {
+        position: absolute;
+        width: 2077px;
+        height: 197.1px;
+        left: -64px;
+        top: 970px;
+
+}
