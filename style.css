@@ -1,125 +1,320 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 nav {
-    display: flex;
-    justify-content:flex-end;
-    min-height: 90px;
-    align-items:center;
-    background-color: #6876C0;
-    font-family: 'Rubik', sans-serif;
-
+  display: flex;
+  justify-content: flex-end;
+  min-height: 90px;
+  align-items: center;
+  background-color: #6876c0;
+  font-family: "Rubik", sans-serif;
 }
 
 .logo {
-    position:absolute;
-    left: 86px;
-    top: 25px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 30px;
-    letter-spacing: 0.105em;
-    color: #FFFFFF;
+  position: absolute;
+  left: 86px;
+  top: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
 }
 .nav-links {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    padding-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  padding-right: 5%;
 }
 
 .nav-links li {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-links a {
-        color: #FFFFFF;
-        text-decoration: none;
-        width: 491px;
-        height: 21px;
-        left: 1310px;
-        top: 36px;
-        letter-spacing: 0.105em;
+  color: #ffffff;
+  text-decoration: none;
+  width: 491px;
+  height: 21px;
+  left: 1310px;
+  top: 36px;
+  letter-spacing: 0.105em;
 }
 
 main {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
-.main-text { 
-    
-        position: absolute;
-        width: 1064px;
-        height: 237px;
-        left: 76px;
-        top: 286px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 64px;
-        line-height: 76px;
-        letter-spacing: 0.105em;
-        color: #000000;
-        
+.main-text {
+  position: absolute;
+  width: 1064px;
+  height: 237px;
+  left: 76px;
+  top: 286px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: 0.105em;
+  color: #000000;
 }
 
 .sub-text {
-        position: absolute;
-        left: 86px;
-        top: 601px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 43px;
-        letter-spacing: 0.105em;
-        color: #000000;
-    
-
+  position: absolute;
+  left: 86px;
+  top: 601px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: 0.105em;
+  color: #000000;
 }
 
 .boton-descargar1 {
-        position: absolute;
-        width: 404px;
-        height: 71px;
-        left: 269px;
-        top: 721px;
-        background: linear-gradient(180deg, #5F6DB3 0%, rgba(95, 109, 179, 0) 366.2%);
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 32px;
+  position: absolute;
+  width: 404px;
+  height: 71px;
+  left: 269px;
+  top: 721px;
+  background: linear-gradient(180deg, #5f6db3 0%, rgba(95, 109, 179, 0) 366.2%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 32px;
 }
 
 .descargar {
-        position: absolute;
-        width: 170px;
-        height: 28px;
-        text-align: center;
-        left: 115px;
-        top: 22px;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0.105em;
-        color: #FFFFFF;
-    
+  position: absolute;
+  width: 170px;
+  height: 28px;
+  text-align: center;
+  left: 115px;
+  top: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
 }
 
-.HERO { 
-        position: absolute;
-        width: 648px;
-        height: 692.16px;
-        left: 1200px;
-        top: 240px;
+.HERO {
+  position: absolute;
+  width: 648px;
+  height: 692.16px;
+  left: 1200px;
+  top: 240px;
 }
 
 .transition1 {
-        position: absolute;
-        width: 2077px;
-        height: 197.1px;
-        left: -64px;
-        top: 970px;
+  position: absolute;
+  width: 2077px;
+  height: 197.1px;
+  left: -64px;
+  top: 970px;
+}
 
+.barra1 {
+  position: absolute;
+  width: 1262px;
+  height: 40px;
+  left: 376px;
+  top: 1600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.barra2 {
+  position: absolute;
+  width: 1188px;
+  height: 40px;
+  left: 413px;
+  top: 2078px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.texto {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.105em;
+
+  color: #000000;
+}
+.flecha {
+}
+
+.CELU1 {
+  position: absolute;
+  width: 343px;
+  height: 478px;
+  left: 300px;
+  top: 1640px;
+}
+
+.CELU2 {
+  position: absolute;
+  width: 343px;
+  height: 478px;
+  left: 841px;
+  top: 1640px;
+}
+
+.CELU3 {
+  position: absolute;
+  width: 343px;
+  height: 478px;
+  left: 1361px;
+  top: 1640px;
+}
+
+.inventarioimg {
+  position: absolute;
+  width: 523.15px;
+  height: 445.4px;
+  left: 145px;
+  top: 2585px;
+}
+
+.inventarioescrito {
+  position: absolute;
+  width: 820px;
+  height: 57px;
+  right: 0px;
+  top: 2442px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Título-Invent {
+  position: absolute;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.ParrafoDerecho {
+  padding-top: 360px;
+  padding-right: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.devolucionesimg {
+  position: absolute;
+  width: 672.38px;
+  height: 575.95px;
+  left: 1154px;
+  top: 3504px;
+}
+
+.devolucionesescrito {
+  width: 808px;
+  height: 523px;
+  left: 119px;
+  top: 3492px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Titulo-Devoluc {
+  position: absolute;
+  width: 411px;
+  height: 57px;
+  left: 318px;
+  top: 3492px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.ParrafoIzq {
+  position: absolute;
+  width: 808px;
+  height: 419px;
+  left: 119px;
+  top: 3596px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.repartoimg {
+  position: absolute;
+  width: 690px;
+  height: 575.95px;
+  right: 1154px;
+  top: 4504px;
+}
+
+.repartoescrito {
+  position: absolute;
+  width: 808px;
+  height: 670px;
+  left: 1014px;
+  top: 4495px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.Titulo-Reparto {
+  position: absolute;
+  width: 243px;
+  height: 57px;
+  /* left: 1296px;
+  top: 4495px; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.Parrafo-Rep {
+  padding-top: 260px;
+  padding-right: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #000000;
 }
