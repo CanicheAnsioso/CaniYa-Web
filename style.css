@@ -111,7 +111,7 @@ main {
 
 .transition1 {
   position: absolute;
-  width: 2077px;
+  width: 1929px;
   height: 197.1px;
   left: -64px;
   top: 970px;
@@ -277,6 +277,7 @@ main {
   height: 575.95px;
   right: 1154px;
   top: 4504px;
+  left: 102px;
 }
 
 .repartoescrito {
@@ -288,7 +289,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
 }
 .Titulo-Reparto {
   position: absolute;
@@ -316,4 +316,141 @@ main {
   text-align: right;
   letter-spacing: 0.05em;
   color: #000000;
+}
+
+.reporteimg {
+  position: absolute;
+  width: 605px;
+  height: 675.74px;
+  left: 1239px;
+  top: 5683px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.reporteescrito {
+  position: absolute;
+  width: 861px;
+  height: 591px;
+  left: 119px;
+  right: 200px;
+  top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Titulo-Reporte {
+  position: absolute;
+  width: 780px;
+  height: 57px;
+  left: 143px;
+  top: 5668px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.Parrafo-Reportes {
+  position: absolute;
+  width: 861px;
+  height: 476px;
+  left: 119px;
+  right: 200px;
+  top: 5783px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.Premium-Banner {
+  /* position: absolute; */
+  width: 100%;
+  height: 807px;
+  /* left: -4px; */
+  top: 6591px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Fondo-Banner {
+  position: absolute;
+  width: 1924px;
+  height: 807px;
+  /* left: -4px; */
+  top: 6591px;
+  background: linear-gradient(
+    46.52deg,
+    rgba(255, 255, 255, 0.28) 47.3%,
+    rgba(54, 176, 203, 0.28) 61.19%,
+    #e71086 100%,
+    rgba(242, 240, 240, 0) 73.22%
+  );
+  border-radius: 0px;
+}
+
+.HERO-Banner {
+  position: absolute;
+  width: 665px;
+  height: 794px;
+  left: 1212px;
+  top: 6691px;
+}
+
+.Texto-Banner {
+  position: absolute;
+  width: 970px;
+  height: 171px;
+  left: 65px;
+  top: 6970px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.premiumword {
+  color: #d8bc2c;
+  display: inline;
+}
+
+.Boton-Premium-Banner {
+  position: absolute;
+  width: 404px;
+  height: 71px;
+  left: 314px;
+  top: 7251px;
+}
+
+.Boton {
+  width: 404px;
+  height: 71px;
+  left: 314px;
+  top: 7251px;
+  background: linear-gradient(180deg, rgba(255, 20, 175, 0.39) 0%, #48deff 204.23%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+}
+
+.boton-descargar {
+  /* position: absolute; */
+  width: 170px;
+  height: 28px;
+  left: 480px;
+  top: 6898px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
 }
