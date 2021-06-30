@@ -452,3 +452,292 @@ main {
   letter-spacing: 0.105em;
   color: #ffffff;
 }
+
+.título-nosotros {
+  position: absolute;
+  width: 292px;
+  height: 57px;
+  left: 779px;
+  top: 7568px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.Presentacion-Martin {
+  width: 1752px;
+  height: 968px;
+  left: 51px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.NombreCompletoMartin {
+  position: absolute;
+  width: 480px;
+  height: 114px;
+  left: 51px;
+  top: 7858px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.Sub-texto-martin {
+  position: absolute;
+  width: 513px;
+  height: 43px;
+  left: 52px;
+  top: 7996px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.005em;
+  color: #c5428a;
+}
+
+.parrafo-info-martin {
+  position: absolute;
+  width: 480px;
+  height: 140px;
+  left: 51px;
+  top: 8063px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.005em;
+  color: #000000;
+}
+
+.Redes {
+  position: absolute;
+  width: 144px;
+  height: 48px;
+  left: 52px;
+  top: 8259px;
+}
+
+.Hero-Nacho {
+  position: absolute;
+  width: 845px;
+  height: 968px;
+  left: 958px;
+  top: 7508px;
+}
+
+.Presentacion-Leila {
+  /* position: absolute; */
+  width: 565px;
+  height: 461px;
+  left: 1223px;
+  /* top: 8668px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.NombreCompletoLeila {
+  position: absolute;
+  width: 489px;
+  height: 114px;
+  left: 1299px;
+  top: 8668px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 57px;
+  text-align: right;
+  letter-spacing: 0.105em;
+  color: #000000;
+}
+
+.Sub-texto-leila {
+  position: absolute;
+  width: 565px;
+  height: 43px;
+  left: 1223px;
+  top: 8858px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: right;
+  letter-spacing: -0.005em;
+  color: rgba(175, 80, 220, 0.91);
+}
+
+.parrafo-info-leila {
+  position: absolute;
+  width: 480px;
+  height: 140px;
+  left: 1302px;
+  top: 8940px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  letter-spacing: -0.005em;
+  color: #000000;
+}
+
+.Redes2 {
+  position: absolute;
+  width: 144px;
+  height: 48px;
+  left: 1638px;
+  top: 9123px;
+}
+
+.Hero-Leila {
+  position: absolute;
+  width: 788px;
+  height: 847px;
+  left: 33px;
+  top: 8428px;
+}
+
+footer {
+  font-family: "Rubik", sans-serif;
+}
+
+.Footer {
+  /* position: absolute; */
+  width: 1920px;
+  height: 280px;
+  left: 0px;
+  /* top: 9325px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.FondoFooter {
+  position: absolute;
+  width: 1920px;
+  height: 280px;
+  left: 0px;
+  top: 9325px;
+  background: #6876c0;
+}
+
+.LogoCaniYa {
+  position: absolute;
+  width: 79px;
+  height: 80px;
+  left: 129px;
+  top: 9347px;
+}
+
+.logoimg {
+  /* position: absolute; */
+  width: 79px;
+  height: 80px;
+  left: 129px;
+  color: #ffffff;
+  /* top: 9347px; */
+}
+
+.texto-footer-logo {
+  /* position: absolute; */
+  width: 166px;
+  height: 43px;
+  left: 227px;
+  /* top: 9365px; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 43px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+}
+
+.DirectorioFooter {
+  position: absolute;
+  width: 219px;
+  height: 113px;
+  left: 526px;
+  top: 9376px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.Detalles {
+  /* position: absolute; */
+  width: 235px;
+  height: 21px;
+  /* left: 526px;
+  top: 9468px; */
+}
+
+.detalles2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Seguinos {
+  position: absolute;
+  width: 287px;
+  height: 44.12px;
+  left: 1490px;
+  top: 9365px;
+}
+
+.follow {
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+}
+
+.redesfooter {
+  position: absolute;
+  width: 176px;
+  height: 86px;
+}
+
+.foot {
+  position: absolute;
+  width: 1724px;
+  height: 0px;
+  left: 98px;
+  top: 9531px;
+  border: 1px solid #202333;
+  transform: rotate(0.07deg);
+}
+
+.copyright {
+  width: 169px;
+  height: 19px;
+  left: 84px;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.105em;
+  color: #ffffff;
+}
