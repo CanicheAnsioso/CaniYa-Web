@@ -9,25 +9,35 @@ nav {
   justify-content: flex-end;
   min-height: 90px;
   align-items: center;
-  background-color: #6876c0;
+  background-color: none;
   font-family: "Rubik", sans-serif;
 }
 
-.logo {
+
+.logo{
+  position: absolute;
+width: 68px;
+height: 73px;
+left: 86px;
+top: 10px;
+}
+
+.Texto-Logo {
   position: absolute;
   left: 86px;
   top: 25px;
+  width: 170px;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 30px;
   letter-spacing: 0.105em;
-  color: #ffffff;
+  color: #3045B2;
 }
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
   padding-right: 5%;
 }
 
@@ -36,9 +46,10 @@ nav {
 }
 
 .nav-links a {
-  color: #ffffff;
+  color: #514E4E;
   text-decoration: none;
-  width: 491px;
+  font-size: 22px;
+  width: 599px;
   height: 21px;
   left: 1310px;
   top: 36px;
@@ -111,10 +122,11 @@ main {
 
 .transition1 {
   position: absolute;
-  width: 1929px;
-  height: 197.1px;
-  left: -64px;
-  top: 970px;
+width: 1950.85px;
+height: 264.06px;
+left: -15.7px;
+top: 1071.94px;
+
 }
 
 .barra1 {
@@ -147,8 +159,6 @@ main {
   letter-spacing: 0.105em;
 
   color: #000000;
-}
-.flecha {
 }
 
 .CELU1 {
@@ -215,7 +225,7 @@ main {
   font-size: 36px;
   line-height: 46px;
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
   text-align: right;
   letter-spacing: 0.05em;

@@ -9,25 +9,34 @@ nav {
   justify-content: flex-end;
   min-height: 90px;
   align-items: center;
-  background-color: #6876c0;
+  background-color: none;
   font-family: "Rubik", sans-serif;
 }
 
-.logo {
+.logo{
+  position: absolute;
+  width: 68px;
+  height: 73px;
+  left: 86px;
+  top: 10px;
+}
+
+.Texto-Logo {
   position: absolute;
   left: 86px;
   top: 25px;
+  width: 170px;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 30px;
   letter-spacing: 0.105em;
-  color: #ffffff;
+  color: #3045B2;
 }
 .nav-links {
   display: flex;
   justify-content: space-around;
-  width: 30%;
+  width: 40%;
   padding-right: 5%;
 }
 
@@ -35,10 +44,16 @@ nav {
   list-style: none;
 }
 
+.premiumword {
+  color: #d8bc2c;
+  display: inline;
+}
+
 .nav-links a {
-  color: #ffffff;
+  color: #514E4E;
   text-decoration: none;
-  width: 491px;
+  font-size: 22px;
+  width: 599px;
   height: 21px;
   left: 1310px;
   top: 36px;
